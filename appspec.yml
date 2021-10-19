@@ -2,6 +2,6 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: Scripts/install.sh
+    - location: install.sh
       timeout: 300
       runas: root
