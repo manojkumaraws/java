@@ -2,13 +2,12 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:    
-    - location: Backupcode.sh
     - location: Install.sh
       timeout: 300
       runas: root
  
  # AfterInstall:
- #   - location: Install.sh
+ #   - location: Install.sh Backupcode.sh
  #     timeout: 30
  #     runas: root
       
