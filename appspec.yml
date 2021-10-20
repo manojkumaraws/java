@@ -5,9 +5,4 @@ hooks:
     - location: Install.sh
       timeout: 300
       runas: root
- 
- # AfterInstall:
- #   - location: Install.sh Backupcode.sh
- #     timeout: 30
- #     runas: root
       
