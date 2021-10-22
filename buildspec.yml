@@ -14,8 +14,5 @@ artifacts:
     - '**/LoginWebApp-1.war'
     - 'appspec.yml'
     - 'Install.sh'
-    - 'file-copy.sh'
     
-    
-    
-  discard-paths: yes
+discard-paths: yes
