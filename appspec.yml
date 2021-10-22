@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
 hooks:
-  BeforeInstall:    
-    - location: Install.sh
-      timeout: 300
-      runas: root
+# BeforeInstall:    
+#   - location: Install.sh
+#     timeout: 300
+#     runas: root
   AfterInstall
     - location: file-copy.sh
       timeout: 300
