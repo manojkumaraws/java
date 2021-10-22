@@ -5,8 +5,12 @@ hooks:
    - location: Install.sh
      timeout: 300
      runas: root
+     
 
-    
+ AfterInstall
+   - location: file-copy.sh
+     timeout: 300
+     runas: root   
     
       
     
