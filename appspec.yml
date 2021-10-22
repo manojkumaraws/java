@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:    
-    - location: Install.sh
+    - location: file-copy.sh
       timeout: 300
       runas: root
     
