@@ -2,10 +2,10 @@ version: 0.2
 
 env:
   secrets-manager:
-    LOGIN: mysec-1/sonar:sonartoken
-    HOST: mysec-1/sonar:HOST
-    Organization: mysec-1/sonar:Organization
-    Project: mysec-1/sonar:Project
+    LOGIN: mysec-1:sonartoken
+    HOST: mysec-1:HOST
+    Organization: mysec-1:Organization
+    Project: mysec-1:Project
 
 phases:
   install:
