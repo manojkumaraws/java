@@ -13,4 +13,4 @@ FILE1=$(find /opt/codedeploy-agent/deployment-root/99cdcb40-8b6f-425f-9506-613f4
 echo $FILE1
 cp $FILE1 /usr/local/tomcat9/webapps
 ls -ltr /usr/local/tomcat9/webapps/LoginWebApp-1.war
-systemctl restart tomcat
+#systemctl restart tomcat
